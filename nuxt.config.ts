@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   extends: [process.env.NUXT_UI_PRO_PATH || '@nuxt/ui-pro'],
+
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
@@ -11,6 +12,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-og-image'
   ],
+
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
     'components:extend': (components) => {
@@ -19,25 +21,32 @@ export default defineNuxtConfig({
       globals.forEach(c => c.global = true)
     }
   },
+
   ui: {
     icons: ['heroicons', 'simple-icons']
   },
+
   colorMode: {
     disableTransition: true
   },
+
   routeRules: {
     '/api/search.json': { prerender: true },
     '/docs': { redirect: '/docs/getting-started', prerender: false }
   },
+
   devtools: {
     enabled: true
   },
+
   typescript: {
     strict: false
   },
+
   future: {
     compatibilityVersion: 4
   },
+
   eslint: {
     config: {
       stylistic: {
@@ -45,5 +54,7 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  }
+  },
+
+  compatibilityDate: '2024-11-16'
 })
