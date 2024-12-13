@@ -3,8 +3,14 @@
 </script>
 
 <template>
-  <h1>Speakers</h1>
+  <h1>Ils ont speak !</h1>
+
+  <div class="p-2 flex flex-row">
+    <Speaker />
+    <Speaker />
+    <Speaker />
+  </div>
+
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
