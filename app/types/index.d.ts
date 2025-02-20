@@ -12,3 +12,26 @@ export interface BlogPost extends ParsedContent {
     avatar?: Avatar
   } & Link)[]
 }
+
+export interface Speaker {
+  firstname: string;
+  lastname: string;
+  photo: string;
+  role: string;
+  company: {
+    name: string, link: string
+  }
+  talk: {
+    title: string,
+    edition: number,
+    replay: string
+  },
+  socials: Socials[]
+}
+
+export interface Social {
+  type: SocialType,
+  link: string
+}
+
+export type SocialType = "GITHUB" | "TWITTER" | "BLOG" | "LINKEDIN" | "BLUESKY"
