@@ -2,6 +2,7 @@
 import type { Speaker } from '~/types';
 
 const props = defineProps<{ speaker: Speaker }>()
+console.log(props.speaker)
 </script>
 
 <template>
