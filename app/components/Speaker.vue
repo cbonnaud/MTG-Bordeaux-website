@@ -36,7 +36,7 @@ console.log(props.speaker)
         </div>
 
         <!-- SOCIALS -->
-        <div class="w-full flex justify-center my-auto">
+        <div class="w-full flex justify-center my-auto gap-x-2  ">
             <SocialLink v-for="social in speaker.socials" :social="social" />
         </div>
     </div>
