@@ -1,0 +1,41 @@
+title: List of events
+events:
+  - id: 1
+    name: Meetup n°1
+    date: 2024-02-01
+    url: https://www.meetup.com/mtg-bordeaux/events/298066350
+    location: Le Wagon Bordeaux
+    talks: [1,2]
+    partners: 
+      - name: test
+        url: 
+        logo: 
+    replay: https://www.youtube.com/live/HRYnZMxcgUo
+  - id: 2
+    name: Meetup n°2
+    date: 2024-04-04
+    url: https://www.meetup.com/mtg-bordeaux/events/298989875
+    location: Ippon Technologies Bordeaux
+    talks: [1,2]
+    partners: 
+      - 
+    replay: https://www.youtube.com/live/Okl7BmUp46M
+  - id: 3
+    name: Meetup n°3
+    date: 2024-06-11
+    url: https://www.meetup.com/mtg-bordeaux/events/300232411
+    location: Microsoft Experiences Lab Bordeaux
+    talks: [1,2]
+    partners: 
+      - 
+    replay: https://www.youtube.com/live/ZYIXMb4C8Dg
+  - id: 4
+    name: Meetup n°4
+    date: 2024-10-03
+    url: https://www.meetup.com/mtg-bordeaux/events/302549137
+    location: Betclic
+    talks: [1,2]
+    partners: 
+      - 
+    replay: https://www.youtube.com/live/WTA8j-vYnC0
+
