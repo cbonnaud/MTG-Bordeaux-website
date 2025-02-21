@@ -14,24 +14,30 @@ export interface BlogPost extends ParsedContent {
 }
 
 export interface Speaker {
-  firstname: string;
-  lastname: string;
-  photo: string;
-  role: string;
-  company: {
-    name: string, link: string
+  firstname: string
+  lastname: string
+  photo: string
+  role: string
+  company?: {
+    name: string
+    link: string
+    logo: string
   }
-  talk: {
-    title: string,
-    edition: number,
-    replay: string
-  },
-  socials: Socials[]
+  talks: number[]
+  socials: Social[]
 }
 
 export interface Social {
-  type: SocialType,
+  type: SocialType
   link: string
 }
 
-export type SocialType = "GITHUB" | "TWITTER" | "BLOG" | "LINKEDIN" | "BLUESKY"
+export type SocialType = 'GITHUB' | 'TWITTER' | 'BLOG' | 'LINKEDIN' | 'BLUESKY'
+
+export interface Talk {
+  id: number
+  title: string
+  meetup: number
+  abstract: string
+  replay: string
+}
