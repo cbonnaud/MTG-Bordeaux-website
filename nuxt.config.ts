@@ -13,6 +13,33 @@ export default defineNuxtConfig({
     'nuxt-og-image'
   ],
 
+  devtools: {
+    enabled: true
+  },
+
+  colorMode: {
+    disableTransition: true
+  },
+
+  ui: {
+    icons: ['heroicons', 'simple-icons']
+  },
+
+  routeRules: {
+    '/api/search.json': { prerender: true },
+    '/docs': { redirect: '/docs/getting-started', prerender: false }
+  },
+
+  future: {
+    compatibilityVersion: 4
+  },
+
+  compatibilityDate: '2024-11-16',
+
+  typescript: {
+    strict: false
+  },
+
   hooks: {
     // Define `@nuxt/ui` components as global to use them in `.md` (feel free to add those you need)
     'components:extend': (components) => {
@@ -22,31 +49,6 @@ export default defineNuxtConfig({
     }
   },
 
-  ui: {
-    icons: ['heroicons', 'simple-icons']
-  },
-
-  colorMode: {
-    disableTransition: true
-  },
-
-  routeRules: {
-    '/api/search.json': { prerender: true },
-    '/docs': { redirect: '/docs/getting-started', prerender: false }
-  },
-
-  devtools: {
-    enabled: true
-  },
-
-  typescript: {
-    strict: false
-  },
-
-  future: {
-    compatibilityVersion: 4
-  },
-
   eslint: {
     config: {
       stylistic: {
@@ -54,7 +56,5 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  },
-
-  compatibilityDate: '2024-11-16'
+  }
 })

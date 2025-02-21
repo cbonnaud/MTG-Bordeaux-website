@@ -1,6 +1,7 @@
 ﻿<script setup lang="ts">
 
 </script>
+
 <template>
   <UContainer>
     <UPageHeader
@@ -8,7 +9,6 @@
       title="Talks"
     />
 
-    <UPageBody>
-    </UPageBody>
+    <UPageBody />
   </UContainer>
 </template>

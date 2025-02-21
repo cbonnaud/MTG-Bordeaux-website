@@ -7,35 +7,57 @@ events:
     location: Le Wagon Bordeaux
     talks: [1,2]
     partners: 
-      - name: test
-        url: 
-        logo: 
+      - name: Le Wagon Bordeaux
+        link: https://www.lewagon.com/fr
+        logo: /companies/wagon.svg
+      - name: Microsoft
+        url: https://developer.microsoft.com/
+        logo: /companies/microsoft.png
     replay: https://www.youtube.com/live/HRYnZMxcgUo
   - id: 2
     name: Meetup n°2
     date: 2024-04-04
     url: https://www.meetup.com/mtg-bordeaux/events/298989875
     location: Ippon Technologies Bordeaux
-    talks: [1,2]
+    talks: [3,4,5]
     partners: 
-      - 
+      - name: Ippon Technologies
+        link: https://fr.ippon.tech/
+        logo: /companies/ippon.svg
     replay: https://www.youtube.com/live/Okl7BmUp46M
   - id: 3
     name: Meetup n°3
     date: 2024-06-11
     url: https://www.meetup.com/mtg-bordeaux/events/300232411
     location: Microsoft Experiences Lab Bordeaux
-    talks: [1,2]
+    talks: [6,7]
     partners: 
-      - 
+      - name: Microsoft
+        url: https://developer.microsoft.com/
+        logo: /companies/microsoft.png
+      - name: Pulumi
+        url: https://www.pulumi.com/
+        logo: /companies/pulumi.png
     replay: https://www.youtube.com/live/ZYIXMb4C8Dg
   - id: 4
     name: Meetup n°4
     date: 2024-10-03
     url: https://www.meetup.com/mtg-bordeaux/events/302549137
     location: Betclic
-    talks: [1,2]
+    talks: [8,9]
     partners: 
-      - 
+      - name: Betclic
+        link: https://www.betclic.fr/
+        logo: /companies/betclic.png
     replay: https://www.youtube.com/live/WTA8j-vYnC0
-
+  - id: 5
+    name: Meetup n°5
+    date: 2025-02-06
+    url: https://www.meetup.com/mtg-bordeaux/events/305136888
+    location: SFEIR
+    talks: [10,11]
+    partners: 
+      - name: SFEIR
+        link: https://www.sfeir.com/
+        logo: /companies/sfeir.png
+    replay: https://www.youtube.com/live/WTA8j-vYnC0
